@@ -1,0 +1,106 @@
+
+
+.cardSelected{
+   
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+font-style: italic;
+}
+
+
+
+
+.cards{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+.card{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+}
+
+.cardtop{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(251, 147, 0);
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+
+    width: 22rem;
+    height: auto;  
+}
+
+.cardbottom{
+    background-color:rgb(251, 147, 0);
+    width: 22rem;
+    height: 8rem;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius:3%;
+    display: flex;
+ justify-content: space-between;
+    
+  
+}
+
+
+.cardtop img{
+
+text-align: left;
+border-radius: 3%;
+
+
+}
+
+.secondimg{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+margin-top: 1rem;
+margin-left: 1rem;
+margin-bottom: 1rem;
+}
+
+.bt{
+
+    width: 6rem;
+    height: 2rem;
+    background-color:rgb(87, 123, 193);
+    margin-top: 4em;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+    border-radius: 3%;
+    border: black solid 2px;
+    color: beige;
+    font-size: 1rem;
+}
+
+
+.text{
+
+ font-weight: bold;
+ margin-top: 2.5rem;
+ margin-right:2rem;
+ margin-bottom: 1rem;
+color: #0c0c52;
+font-size: 1rem;
+font-weight: lighter;
+}
